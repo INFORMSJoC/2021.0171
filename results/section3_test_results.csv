@@ -1,0 +1,23 @@
+,metric_name,description,value
+17,avg unit-days (gloves),average days that each unit of gloves stayed idle,6.25
+18,avg unit-days (gowns),average days that each unit of gowns stayed idle,6.4
+19,avg unit-days (masks),average days that each unit of masks stayed idle,8.0
+13,avg unit-miles (gloves),average miles travelled by each unit of gloves,100.0
+14,avg unit-miles (gowns),average miles travelled by each unit of gowns,70.0
+15,avg unit-miles (masks),average miles travelled by each unit of masks,50.0
+0,"fill rate (R1,gloves)",fill rate of recipient R1 limited to gloves,1.0
+1,"fill rate (R1,masks)",fill rate of recipient R1 limited to masks,1.0
+2,"fill rate (R2,gloves)",fill rate of recipient R2 limited to gloves,0.5
+3,"fill rate (R2,gowns)",fill rate of recipient R2 limited to gowns,1.0
+4,"fill rate (R3,gowns)",fill rate of recipient R3 limited to gowns,0.0
+5,fill rate (gloves),average fill rate among recipients who requested gloves,0.75
+6,fill rate (gowns),average fill rate among recipients who requested gowns,0.5
+7,fill rate (masks),average fill rate among recipients who requested masks,1.0
+8,fill rate exc zeros (gloves),average fill rate among recipients who requested gloves and received at least one unit,0.75
+9,fill rate exc zeros (gowns),average fill rate among recipients who requested gowns and received at least one unit,1.0
+10,fill rate exc zeros (masks),average fill rate among recipients who requested masks and received at least one unit,1.0
+20,avg holding time,average days that each unit of ppe stayed idle,6.581818181818182
+21,avg number of shipments,average number of shipments among donors,2.0
+16,avg unit-miles,average miles travelled by each unit of ppe,88.18181818181819
+11,fill rate,"overall fill rate, i.e., the average of the fill rates (ppe)",0.75
+12,fill rate exc zeros,"overall fill rate among recipients who received something, i.e., the average of the fill rates (ppe) among recipients who received at least one unit",0.9166666666666666
