@@ -8,7 +8,7 @@
   * [Installation](#installation)
   * [Advanced Use](#advanced-use)
   	+ [User-defined matching solution methods](#user-defined-matching-solution-methods)
-	+ [Random generation of requests through bootstrapping](#random-generation-of-requests-through-bootstrapping)
+	+ [Generating random variations of the data set](#generating-random-variations-of-the-data-set)
 * [TestingFramework Class](#testingframework-class)
     + [Parameters](#parameters)
     + [Methods](#methods)
@@ -150,7 +150,7 @@ Once you have implemented your own matching strategy (let us call it _my_strateg
 
 The ppe_match package contains the implementation of two strategies illustrated above: the first-come-first-matched strategy (strategies.FCFM_strategy) and the "proximity matching" strategy tested by Bala et al. (2021) (strategies.proximity_match_strategy).
 
-### Random generation of requests through bootstrapping
+### RGenerating random variations of the data set
 Users interested in embedding our framework in a simulation procedure may be interested in generating random variations of our data set, in order to test their code on multiple data sets. To that end, the code below implements a "bootstrap" procedure that randomly reorders the actual donor (recipient) requests by reassigning to each donor (recipient) request the timestamp of another random donor (recipient) request. In other words, in each bootstrap execution, the same recipients (and donors) make exactly the same requests as in the original data, but they make them in a different order every time. The function <i>generate_data_for_bootstrap</i> takes as input the donor and recipient requests and two random seeds for the reordering. It returns two new donor and recipient requests as pandas DataFrames.
 
 	import pandas as pd
