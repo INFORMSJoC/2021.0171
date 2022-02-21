@@ -1,7 +1,36 @@
-# 2021.0171. A Software Package and Data Set for the Personal Protective Equipment Matching Problem During Covid-19
+[![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
+
+# Data Set and Software for the PPE Matching Problem During Covid-19
+
+This archive is distributed in association with the [INFORMS Journal on
+Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE.txt).
+
+The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper 
+[A Software Package and Data Set for the PPE Matching Problem During Covid-19](https://doi.org/10.1287/ijoc.2021.0171) by M. Samorani, R. Bala, R. Jacob, S. He. 
+
+The snapshot is based on [this SHA](https://github.com/samorani/MatchingPPE/commits/c684c75afc6671f90644d1a2622a9972f689eadc) in the development repository. 
+
+
+## Cite
+To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2021.0171) using its DOI and the software itself, using the following DOI.
+
+[![DOI](https://zenodo.org/badge/291306388.svg)](https://zenodo.org/badge/latestdoi/291306388)
+
+Below is the BibTex for citing this version of the code.
+
+```
+@article{PPEMatch,
+  author =        {M. Samorani and R. Bala and R. Jacob and S. He},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {A Software Package and Data Set for the PPE Matching Problem During Covid-19},
+  year =          {2022},
+  doi =           {10.5281/zenodo.0000},
+  url =           {https://github.com/INFORMSJoC/2021.0171},
+}  
+```
 
 ## Table of Contents
-  * [Overview](#overview)
+  * [Description](#description)
     + [What is the PPE matching problem?](#what-is-the-ppe-matching-problem)
     + [Who needs to solve the PPE matching problem?](#who-needs-to-solve-the-ppe-matching-problem)
     + [What does this software package do?](#what-does-this-software-package-do)
@@ -14,7 +43,7 @@
     + [Methods](#methods)
 
 
-## Overview
+## Description
 ### What is the PPE matching problem?
 The PPE Matching Problem consists of optimally matching a set of requests, D, made by donors interested in donating Personal Protective Equipment (or PPE, such as masks, gowns, gloves, etc) with a set of requests, R, made by recipients interested in receiving PPE. Requests are characterized by a timestamp (date), a type and quantity of PPE to donate or request, and a donor or recipient id. The input of the problem also includes a matrix M of distances between donors and recipients. The objectives are multiple, and include maximizing the recipients' fill rate, minimizing the total shipping distance, minimizing the holding time of PPE, and minimizing the number of shipments of each donor.   
 
