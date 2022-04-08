@@ -14,8 +14,7 @@ The snapshot is based on [this SHA](https://github.com/samorani/MatchingPPE/comm
 ## Cite
 To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2021.0171) using its DOI and the software itself, using the following DOI.
 
-PLACEHOLDER FOR DOI
-<!-- [![DOI](https://zenodo.org/badge/291306388.svg)](https://zenodo.org/badge/latestdoi/291306388) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6426098.svg)](https://doi.org/10.5281/zenodo.6426098)
 
 Below is the BibTex for citing this version of the code.
 
@@ -23,9 +22,9 @@ Below is the BibTex for citing this version of the code.
 @article{PPEMatch,
   author =        {M. Samorani and R. Bala and R. Jacob and S. He},
   publisher =     {INFORMS Journal on Computing},
-  title =         {A Software Package and Data Set for the PPE Matching Problem During Covid-19},
+  title =         {A Software Package and Data Set for the PPE Matching Problem During Covid-19 Version v2021.0171},
   year =          {2022},
-  doi =           {PLACEHOLDER FOR DOI},
+  doi =           {10.5281/zenodo.6426098},
   url =           {https://github.com/INFORMSJoC/2021.0171},
 }  
 ```
