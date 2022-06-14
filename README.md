@@ -12,7 +12,7 @@ The snapshot is based on [this SHA](https://github.com/samorani/MatchingPPE/comm
 
 
 ## Cite
-To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2021.0171) using its DOI and the software itself, using the following DOI.
+To cite this software, please cite the [A Software Package and Data Set for the Personal Protective Equipment Matching Problem During COVID-19](https://doi.org/10.1287/ijoc.2022.1203) using its DOI and the software itself, using the following DOI.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6426098.svg)](https://doi.org/10.5281/zenodo.6426098)
 
