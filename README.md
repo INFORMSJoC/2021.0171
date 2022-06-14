@@ -6,7 +6,7 @@ This archive is distributed in association with the [INFORMS Journal on
 Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE.txt).
 
 The software and data in this repository are a snapshot of the software and data that were used in the research reported on in the paper 
-[A Software Package and Data Set for the PPE Matching Problem During Covid-19](https://doi.org/10.1287/ijoc.2021.0171) by M. Samorani, R. Bala, R. Jacob, S. He. 
+[A Software Package and Data Set for the PPE Matching Problem During Covid-19](https://doi.org/10.1287/ijoc.2022.1203) by M. Samorani, R. Bala, R. Jacob, S. He. 
 
 The snapshot is based on [this SHA](https://github.com/samorani/MatchingPPE/commits/c684c75afc6671f90644d1a2622a9972f689eadc) in the development repository. 
 
